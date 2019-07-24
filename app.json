@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/main"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "写一封未来的信",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF0099",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "pages/image/home_fill.png",
+        "selectedIconPath": "pages/image/home.png"
+        
+        },
+      {
+        "pagePath": "pages/index/main",
+        "text": "写信",
+        "iconPath": "pages/image/pen.png",
+        "selectedIconPath": "pages/image/pen1.png"
+      }]
+  }
+  
+ 
+}

@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="share">
+     <image  class="img" src='../../pages/image/music.png' animation="{{roate}}"></image>
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" 
+        next-margin="{{nextMargin}}px">
+        <block wx:for="{{background}}" wx:key="this">
+          <swiper-item>
+          <view class="swiper-item {{item}}"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  
+  <view class='letter' >
+  
+    <button plain='true' bindtap="bindViewTap" class="letter-small2" style='background:url(../image/star1.png);background-size:10px 10px;background-repeat:no-repeat;border:none;' animation="{{moveanimation}}"></button>
+    <button plain='true' class="letter-small3" style='background:url(../image/star1.png);background-size:10px 10px;background-repeat:no-repeat;border:none;' animation="{{moveanimation}}"></button>
+
+    <button plain='true' class="letter-small4" style='background:url(../image/star1.png);background-size:10px 10px;background-repeat:no-repeat;border:none;' animation="{{moveanimation}}"></button>
+    <button plain='true' class="letter-small5" style='background:url(../image/star1.png);background-size:10px 10px;background-repeat:no-repeat;border:none;' animation="{{moveanimation}}"></button>
+  
+  </view>
+  <view>
+    <modal hidden="{{modalHidden}}" confirm-text="确定" cancel-text="取消" bindconfirm="modalBindaconfirm" bindcancel="modalBindcancel">
+    hello world
+    </modal>
+  </view>
+
+  
+</view>
+
+ 
+
+
+

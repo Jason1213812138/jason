@@ -1,0 +1,15 @@
+<view class="write" >
+  <view class='item'>
+    <text decode='true'>日期：{{date}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;天气:{{weather}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地点：{{place}}  </text>
+  </view>
+  <view class='text'>
+    <textarea value="    " auto-focus="true" maxlength='-1' style="height: 70em"/>
+  </view>
+
+
+ 
+
+    
+
+
+</view>

@@ -1,0 +1,100 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img{
+  width: 80rpx;
+  height: 80rpx;
+  position: fixed;
+  bottom: 0;
+  margin: 20px 80px 10px 5px;
+  
+  
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.letter {
+  margin-top:50px; 
+  width: 100%; 
+  height: 70%; 
+ 
+  display: flex;
+  flex-direction:row;
+}
+
+
+.letter-small{
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  
+}
+
+.letter-small2{
+  
+  width:10px; 
+  height: 10px;
+  /* transform: rotate(-45deg); */
+  position: absolute;
+  /* background-image: url("//wx3.sinaimg.cn/mw1024/0076v1Aogy1fsm2ehzx6ej304003sq2t.jpg"); */
+  left: 100px;
+  top: 200px;
+  
+}
+
+.letter-small3{
+  background-repeat:no-repeat;
+  width:10px; 
+  height: 10px;
+  /* transform: rotate(45deg); */
+  /* background-image: url("//wx1.sinaimg.cn/mw1024/0076v1Aogy1fsl9sveqp4j305o05qwfe.jpg"); */
+  position: relative;
+  left: 50px;
+}
+
+.letter-small4{
+  
+  width:10px; 
+  height: 10px;
+  /* transform: rotate(45deg); */
+  /* background-image: url("//wx3.sinaimg.cn/mw1024/0076v1Aogy1fsm2ehzx6ej304003sq2t.jpg"); */
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.letter-small5{
+  
+  width:10px; 
+  height: 10px;
+  /* transform: rotate(-45deg); */
+  /* background-image: url("//wx3.sinaimg.cn/mw1024/0076v1Aogy1fsm2ehzx6ej304003sq2t.jpg"); */
+  position: relative;
+  
+  left: 0px;
+  top: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
